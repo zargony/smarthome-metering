@@ -1,0 +1,5 @@
+*.bak
+*-bak
+*-backups/
+~*
+_autosave-*
