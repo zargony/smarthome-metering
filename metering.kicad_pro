@@ -243,8 +243,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "SeeedStudio_XIAO"
+    ],
+    "pinned_symbol_libs": [
+      "SeeedStudio_XIAO"
+    ]
   },
   "meta": {
     "filename": "metering.kicad_pro",
