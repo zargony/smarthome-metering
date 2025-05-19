@@ -18,13 +18,13 @@ A [Honeywell IN-Z61](https://process.honeywell.com/us/en/site/elster-instromet-d
 
 **Work in progress** (got no sensor yet). Counting impulses sent by a pulse emitter at the water meter.
 
-A [Sensus ES40-13](https://sensus.com/emea/de/products/420-wasserzaehler/) water meter that allows to attach a [Sensus HRI](https://sensus.com/emea/de/products/hri-sensor/) sensor. [Several variants](https://www.xylem.com/siteassets/brand/sensus/resources/data-sheets/hri-sensor-data-sheet.pdf) exist. HRI-A is a simple pulse emitter while HRI-B has an M-Bus data interface. While HRI-A would be sufficient, they don't seem to be available anymore nowadays. The pulse emitter should be a trivial interface, similar to the gas meter.
+An [Ebeling & Sohn ES40-13](https://www.ebelingundsohn.de/unser-es-40-13/) water meter that allows to attach a [Sensus HRI](https://www.xylem.com/de-de/products--services/telemetry-communications--data-transfer/hand-held--reading-devices/hri-sensor/) sensor. [Several variants](https://www.xylem.com/siteassets/brand/sensus/resources/data-sheets/hri-sensor-data-sheet.pdf) exist. HRI-A is a simple pulse emitter while HRI-B has an M-Bus data interface. While HRI-A would be sufficient, they don't seem to be available anymore nowadays. The pulse emitter should be a trivial interface, similar to the gas meter.
 
 ## Electrical
 
 Reading serial OBIS information from electrical meter.
 
-The [eBZ DD3](https://www.ebzgmbh.de/unsere-produkte) electrical meter has an infrared Tx/Rx interface that continuously provides information about voltage, current, power and total consumption. Several [DIY IR sensors](https://www.heise.de/tests/Ausprobiert-Guenstiger-IR-Lesekopf-fuer-Smart-Meter-mit-Tastmota-Firmware-7065559.html) (and [schematics](https://wiki.volkszaehler.org/hardware/controllers/ir-schreib-lesekopf)) are available online, e.g. I got a Hichi IR (the simple TTL variant, no Wifi or USB). It works fine with 3.3V and is connected directly to the MCU UART. It continuously receives metering information in OBIS D0 format (D0 is ASCII based, unlike SML).
+The [eBZ DD3](https://www.ebzgmbh.de/produkte/dd3) electrical meter has an infrared Tx/Rx interface that continuously provides information about voltage, current, power and total consumption. Several [DIY IR sensors](https://www.heise.de/tests/Ausprobiert-Guenstiger-IR-Lesekopf-fuer-Smart-Meter-mit-Tastmota-Firmware-7065559.html) (and [schematics](https://wiki.volkszaehler.org/hardware/controllers/ir-schreib-lesekopf)) are available online, e.g. I got a Hichi IR (the simple TTL variant, no Wifi or USB). It works fine with 3.3V and is connected directly to the MCU UART. It continuously receives metering information in OBIS D0 format (D0 is ASCII based, unlike SML).
 
 ## Future Ideas
 
