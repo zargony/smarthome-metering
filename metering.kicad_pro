@@ -450,12 +450,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "SeeedStudio_XIAO",
-      "NodeMCU_v2"
+      "NodeMCU_v2",
+      "Seeed_Studio_XIAO"
     ],
     "pinned_symbol_libs": [
-      "SeeedStudio_XIAO",
-      "NodeMCU_v2"
+      "NodeMCU_v2",
+      "Seeed_Studio_XIAO"
     ]
   },
   "meta": {
