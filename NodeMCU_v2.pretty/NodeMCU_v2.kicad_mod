@@ -121,7 +121,7 @@
   (pad "28" thru_hole oval (at 11.43 -12.7) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 3f909fc8-bf05-47eb-bb60-ea2163559073))
   (pad "29" thru_hole oval (at 11.43 -15.24) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 5ee4beca-344f-4c9f-9765-02e7588136af))
   (pad "30" thru_hole oval (at 11.43 -17.78) (size 1.6 1.6) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 59a4cc04-701b-4376-9005-58bf36a059d4))
-  (model "${KIPRJMOD}/NodeMCU_v2.step"
+  (model "NodeMCU_v2.3dshapes/NodeMCU_v2.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
