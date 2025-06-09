@@ -449,14 +449,8 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "NodeMCU_v2",
-      "Seeed_Studio_XIAO"
-    ],
-    "pinned_symbol_libs": [
-      "NodeMCU_v2",
-      "Seeed_Studio_XIAO"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "metering.kicad_pro",
@@ -609,6 +603,18 @@
     [
       "2132c704-8b90-4a68-a04d-0b4be367d67b",
       "Root"
+    ],
+    [
+      "aff1b94e-69ca-420a-a7c4-8c8197c0a1fd",
+      "Debounce1"
+    ],
+    [
+      "e1a8ed28-192d-42ff-b7d9-d46b9b3862c7",
+      "Debounce2"
+    ],
+    [
+      "fc1b8e3c-9114-4782-b79d-e6339273f4a3",
+      "Debounce3"
     ]
   ],
   "text_variables": {}
