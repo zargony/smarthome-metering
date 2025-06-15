@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-06-10")
+		(date "2025-06-15")
 		(rev "1.0")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 	)
@@ -2064,7 +2064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z2.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm"
 			(at 101.6 78.74 0)
 			(effects
 				(font

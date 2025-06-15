@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-06-10")
+		(date "2025-06-15")
 		(rev "1.0")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 	)
@@ -4614,7 +4614,7 @@
 		)
 		(uuid ff474430-b1f6-42e4-8912-0305e74b7201)
 	)
-	(text "GPIO2: strapping, floating, must be high during reset\nGPIO8: strapping, floating, must be high during reset if GPIO9 is low\nGPIO9: strapping, weak pulled-up, high for SPI boot, low for UART boot\nGPIO20/21: UART0, firmware download, bootloader output"
+	(text "IO2: strapping, floating, must be high during reset\nIO8: strapping, floating, must be high during reset if GPIO9 is low\nIO9: strapping, weak pulled-up, high for SPI boot, low for UART boot\nIO20/21: UART0, firmware download, bootloader output"
 		(exclude_from_sim no)
 		(at 27.94 93.98 0)
 		(effects
@@ -6284,6 +6284,16 @@
 		)
 		(uuid "0fb59c90-9814-484d-802d-a1c260210edc")
 	)
+	(label "VIN"
+		(at 76.2 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b75050e-722f-48ff-afc7-57ff374d8a8b")
+	)
 	(label "IO5"
 		(at 63.5 130.81 180)
 		(effects
@@ -6463,6 +6473,16 @@
 			(justify right bottom)
 		)
 		(uuid "8f6f7e61-8e49-4ba3-b526-cfce2e1aef4a")
+	)
+	(label "VBUS"
+		(at 147.32 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95cad524-e348-441b-91f5-f12a374cb08c")
 	)
 	(label "UART_TX"
 		(at 40.64 135.89 180)
@@ -7591,7 +7611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z2.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm"
 			(at 180.34 148.59 0)
 			(effects
 				(font
@@ -10441,7 +10461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-C3-WROOM-02(U)"
+		(property "Value" "ESP32-C3-WROOM-02U"
 			(at 84.6933 107.95 0)
 			(effects
 				(font
@@ -10450,7 +10470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02U"
 			(at 82.55 130.175 0)
 			(effects
 				(font
@@ -11362,7 +11382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z2.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm"
 			(at 257.81 93.98 0)
 			(effects
 				(font
@@ -12389,7 +12409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O6.35mm_Z2.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm"
 			(at 257.81 110.49 0)
 			(effects
 				(font
