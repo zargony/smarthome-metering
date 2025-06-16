@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-06-15")
+		(date "2025-06-16")
 		(rev "1.0")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 	)
@@ -1662,7 +1662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "010ac8b8-485a-4789-8349-b1f6a920292e")
-		(property "Reference" "R18"
+		(property "Reference" "R17"
 			(at 104.14 68.5799 0)
 			(effects
 				(font
@@ -1716,15 +1716,15 @@
 		(instances
 			(project "metering"
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/aff1b94e-69ca-420a-a7c4-8c8197c0a1fd"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/e1a8ed28-192d-42ff-b7d9-d46b9b3862c7"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/fc1b8e3c-9114-4782-b79d-e6339273f4a3"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -1740,7 +1740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0425e817-bd13-4caf-ac92-4a385f578af0")
-		(property "Reference" "R17"
+		(property "Reference" "R16"
 			(at 69.85 57.15 90)
 			(effects
 				(font
@@ -1792,15 +1792,15 @@
 		(instances
 			(project "metering"
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/aff1b94e-69ca-420a-a7c4-8c8197c0a1fd"
-					(reference "R17")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/e1a8ed28-192d-42ff-b7d9-d46b9b3862c7"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/fc1b8e3c-9114-4782-b79d-e6339273f4a3"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -1816,7 +1816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2973d06f-0819-4d81-aed8-8931d2ca01c1")
-		(property "Reference" "R16"
+		(property "Reference" "R15"
 			(at 66.04 40.64 0)
 			(effects
 				(font
@@ -1870,15 +1870,15 @@
 		(instances
 			(project "metering"
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/aff1b94e-69ca-420a-a7c4-8c8197c0a1fd"
-					(reference "R16")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/e1a8ed28-192d-42ff-b7d9-d46b9b3862c7"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/fc1b8e3c-9114-4782-b79d-e6339273f4a3"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2046,7 +2046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9c731e-0015-474d-b8b1-0869c61c2a53")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 105.41 79.0574 90)
 			(effects
 				(font
@@ -2064,7 +2064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm"
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -2109,15 +2109,15 @@
 		(instances
 			(project "metering"
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/aff1b94e-69ca-420a-a7c4-8c8197c0a1fd"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/e1a8ed28-192d-42ff-b7d9-d46b9b3862c7"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/fc1b8e3c-9114-4782-b79d-e6339273f4a3"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2393,7 +2393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa8e8cb6-a4b9-4339-8db5-af924cc12083")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 69.85 46.99 0)
 			(effects
 				(font
@@ -2463,15 +2463,15 @@
 		(instances
 			(project "metering"
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/aff1b94e-69ca-420a-a7c4-8c8197c0a1fd"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/e1a8ed28-192d-42ff-b7d9-d46b9b3862c7"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b/fc1b8e3c-9114-4782-b79d-e6339273f4a3"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
