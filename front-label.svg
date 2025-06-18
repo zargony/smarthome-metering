@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 793.70081 1122.5197"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   sodipodi:docname="front-label.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4.997084"
+     inkscape:cx="131.07644"
+     inkscape:cy="144.08403"
+     inkscape:window-width="1376"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer4"
+     showguides="true"
+     inkscape:lockguides="false">
+    <sodipodi:guide
+       position="132.28347,1084.7244"
+       orientation="-1,0"
+       id="guide1"
+       inkscape:locked="false"
+       inkscape:label="center"
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="37.795276,971.33861"
+       orientation="0,1"
+       id="guide3"
+       inkscape:label="center"
+       inkscape:locked="false"
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="37.795276,952.44097"
+       orientation="0,1"
+       id="guide5"
+       inkscape:locked="false"
+       inkscape:label="C2"
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="37.795276,933.54333"
+       orientation="0,1"
+       id="guide6"
+       inkscape:locked="false"
+       inkscape:label="C3"
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="37.795276,990.23624"
+       orientation="0,1"
+       id="guide7"
+       inkscape:locked="false"
+       inkscape:label="Rx"
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="37.795276,1009.1339"
+       orientation="0,1"
+       id="guide8"
+       inkscape:locked="false"
+       inkscape:label="St"
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="91.842522,1084.7244"
+       orientation="-1,0"
+       id="guide9"
+       inkscape:locked="false"
+       inkscape:label="LEDs"
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="85.039372,1084.7244"
+       orientation="-1,0"
+       id="guide19"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="103.93701,1084.7244"
+       orientation="-1,0"
+       id="guide20"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="122.83465,1084.7244"
+       orientation="-1,0"
+       id="guide21"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="141.73229,1084.7244"
+       orientation="-1,0"
+       id="guide22"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="160.62993,1084.7244"
+       orientation="-1,0"
+       id="guide23"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+    <sodipodi:guide
+       position="179.52756,1084.7244"
+       orientation="-1,0"
+       id="guide24"
+       inkscape:locked="false"
+       inkscape:label=""
+       inkscape:color="rgb(0,134,229)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="69.210745"
+       y="216.50541"
+       width="125.99905"
+       height="14.788621"
+       id="rect2" />
+  </defs>
+  <g
+     inkscape:label="Border"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.377953;stroke-dasharray:none"
+       id="rect1"
+       width="113.00769"
+       height="150.80298"
+       x="75.779617"
+       y="75.779617" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="LEDs"
+     style="display:inline">
+    <ellipse
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.39689;stroke-dasharray:none"
+       id="ellipse29"
+       cx="91.842522"
+       cy="113.38581"
+       rx="5.4708467"
+       ry="5.4708462"
+       inkscape:label="LED 1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1"
+       x="103.77881"
+       y="117.6573"
+       id="text8"
+       inkscape:label="Text 1"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         x="103.77881"
+         y="117.6573"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:start;text-anchor:start;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1">Status</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.39689;stroke-dasharray:none"
+       id="ellipse9"
+       cx="91.842522"
+       cy="132.28348"
+       rx="5.4708467"
+       ry="5.4708462"
+       inkscape:label="LED2" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1"
+       x="103.77881"
+       y="136.55496"
+       id="text3"
+       inkscape:label="Text 2"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="103.77881"
+         y="136.55496"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:start;text-anchor:start;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1">Strom</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.39689;stroke-dasharray:none"
+       id="ellipse11"
+       cx="91.842522"
+       cy="151.18111"
+       rx="5.4708467"
+       ry="5.4708462"
+       inkscape:label="LED3" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1"
+       x="103.32764"
+       y="155.92719"
+       id="text5"
+       inkscape:label="Text 3"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="103.32764"
+         y="155.92719"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:start;text-anchor:start;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1">Gas</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.39689;stroke-dasharray:none"
+       id="ellipse12"
+       cx="91.842522"
+       cy="170.07874"
+       rx="5.4708467"
+       ry="5.4708462"
+       inkscape:label="LED4" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1"
+       x="103.80225"
+       y="174.3092"
+       id="text6"
+       inkscape:label="Text 4"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="103.80225"
+         y="174.3092"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:start;text-anchor:start;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1">Wasser</tspan></text>
+    <ellipse
+       style="fill:none;stroke:#000000;stroke-width:0.39689;stroke-dasharray:none"
+       id="ellipse13"
+       cx="91.842522"
+       cy="188.97638"
+       rx="5.4708467"
+       ry="5.4708462"
+       inkscape:label="LED5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1"
+       x="103.32764"
+       y="193.24786"
+       id="text7"
+       inkscape:label="Text 5"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="103.32764"
+         y="193.24786"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:start;text-anchor:start;stroke:none;stroke-width:0.377953;stroke-dasharray:none;stroke-opacity:1">C3</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Terminals"
+     style="display:inline">
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-dasharray:none"
+       d="m 113.38583,207.87402 v 18.89764"
+       id="path16" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-dasharray:none"
+       d="M 113.38583,75.590547 V 88.062988"
+       id="path25" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.88976;stroke-dasharray:none"
+       d="M 151.1811,75.59055 V 88.062992"
+       id="path27" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:none;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="122.85865"
+       y="225.84013"
+       id="text30"><tspan
+         sodipodi:role="line"
+         id="tspan30"
+         x="122.85865"
+         y="225.84013"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:none;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="141.64828"
+       y="225.84013"
+       id="text31"><tspan
+         sodipodi:role="line"
+         id="tspan31"
+         x="141.64828"
+         y="225.84013"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none">3.3V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:none;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="160.39394"
+       y="225.84013"
+       id="text32"><tspan
+         sodipodi:role="line"
+         id="tspan32"
+         x="160.39394"
+         y="225.84013"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none">Rx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:none;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="179.49556"
+       y="225.84013"
+       id="text33"><tspan
+         sodipodi:role="line"
+         id="tspan33"
+         x="179.49556"
+         y="225.84013"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none">Tx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3332px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="151.23454"
+       y="218.50111"
+       id="text34"><tspan
+         sodipodi:role="line"
+         id="tspan34"
+         x="151.23454"
+         y="218.50111"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:13.3332px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';stroke:none;stroke-width:0.377953">UART</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3334px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="94.54081"
+       y="87.05368"
+       id="text37"><tspan
+         sodipodi:role="line"
+         id="tspan37"
+         x="94.54081"
+         y="87.05368"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:13.3334px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';stroke:none;stroke-width:0.377953;stroke-dasharray:none">C1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3332px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="94.541931"
+       y="218.50111"
+       id="text47"><tspan
+         sodipodi:role="line"
+         id="tspan47"
+         x="94.541931"
+         y="218.50111"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:13.3332px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';stroke:none;stroke-width:0.377953">5V IN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3334px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="132.2404"
+       y="87.05368"
+       id="text48"><tspan
+         sodipodi:role="line"
+         id="tspan48"
+         x="132.2404"
+         y="87.05368"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:13.3334px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';stroke:none;stroke-width:0.377953;stroke-dasharray:none">C2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3334px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="170.036"
+       y="87.05368"
+       id="text49"><tspan
+         sodipodi:role="line"
+         id="tspan49"
+         x="170.036"
+         y="87.05368"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:13.3334px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';stroke:none;stroke-width:0.377953;stroke-dasharray:none">C3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="85.039375"
+       y="226.36545"
+       id="text50"><tspan
+         sodipodi:role="line"
+         id="tspan50"
+         x="85.039375"
+         y="226.36545"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:13.3333px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';stroke:none">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="103.93701"
+       y="226.68546"
+       id="text51"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         x="103.93701"
+         y="226.68546"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:13.3333px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';stroke:none">-</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Labels">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:#000000;stroke-width:0.18897638;stroke-dasharray:none;stroke-opacity:1"
+       x="132.24348"
+       y="101.71264"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="132.24348"
+         y="101.71264"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';stroke:#000000;stroke-width:0.18897638;stroke-dasharray:none;stroke-opacity:1">Zähler-Erfassung</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'DIN Alternate';-inkscape-font-specification:'DIN Alternate Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-dasharray:none"
+       x="132.28346"
+       y="204.16919"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         x="132.28346"
+         y="204.16919"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:8px;font-family:'DIN Condensed';-inkscape-font-specification:'DIN Condensed,  Bold Condensed';stroke:none;stroke-width:0.377953;stroke-dasharray:none">github.com/zargony/smarthome-metering</tspan></text>
+  </g>
+</svg>
