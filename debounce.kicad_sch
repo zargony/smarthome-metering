@@ -1436,6 +1436,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Input debounce circuit\nAt 3.3V (V0), raising edge trigger level (VT+) is ~1.7V\nTime t = -RC * ln(1 - VT / V0)\n10kΩ / 100nF gives ~0.72ms, sufficient for reed contacts\n10kΩ /   1µF gives ~7.23ms, longer time, e.g. for pushbuttons\n"
+		(exclude_from_sim no)
+		(at 82.296 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "06206583-b3bd-4e5b-ba3a-bf392c0c05f5")
+	)
 	(junction
 		(at 63.5 53.34)
 		(diameter 0)
