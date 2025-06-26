@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-06-18")
+		(date "2025-06-27")
 		(rev "1.0")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 	)

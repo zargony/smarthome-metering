@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-06-26")
+		(date "2025-06-27")
 		(rev "1.0")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 		(comment 2 "PCB for Camdenboss CNMB-2-2 DIN rail enclosure")
@@ -3053,7 +3053,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/52b3148f-35d6-4ce7-80d6-0cfa8bc9be87")
+		(path "/55701e56-8b12-4cd4-befb-01ad97b8130b")
 		(sheetname "/")
 		(sheetfile "metering.kicad_sch")
 		(attr smd)

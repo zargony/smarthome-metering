@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-06-18")
+		(date "2025-06-27")
 		(rev "1.0")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 	)
@@ -1436,7 +1436,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Input debounce circuit\nAt 3.3V (V0), raising edge trigger level (VT+) is ~1.7V\nTime t = -RC * ln(1 - VT / V0)\n10kΩ / 100nF gives ~0.72ms, sufficient for reed contacts\n10kΩ /   1µF gives ~7.23ms, longer time, e.g. for pushbuttons\n"
+	(text "Input debounce circuit\nAt 3.3V (V0), raising edge trigger level (VT+) is ~2V (60%)\nTime t = -RC * ln(1 - VT / V0)\n10kΩ / 100nF gives ~1ms, sufficient for reed contacts\n10kΩ /   1µF gives ~10ms, longer time, e.g. for pushbuttons\n"
 		(exclude_from_sim no)
 		(at 82.296 44.45 0)
 		(effects
