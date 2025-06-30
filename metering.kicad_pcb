@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-06-27")
-		(rev "1.0")
+		(date "2025-06-30")
+		(rev "1.1")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 		(comment 2 "PCB for Camdenboss CNMB-2-2 DIN rail enclosure")
 	)
@@ -16786,7 +16786,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "Energy Metering Rev. ${REVISION}"
+	(gr_text "Energy Metering ${REVISION}"
 		(at 80.75 127 90)
 		(layer "F.SilkS")
 		(uuid "4cde63cf-7c23-4672-b2d7-246fe1164070")
