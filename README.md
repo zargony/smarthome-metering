@@ -42,6 +42,10 @@ TODO: Describe firmware configuration, long term data collection and analytics u
 
 Feel free to get in touch and discuss ideas, improvements or your experiences with it.
 
+## License
+
+Hardware licensed under the [CERN Open Hardware License (Strongly Reciprocal)][OHL]. Software licensed under the [European Union Public License (EUPL)][EUPL]. Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, shall be licensed as above, without any additional terms or conditions.
+
 ## History
 
 An early prototype was built using a NodeMCU V2 dev kit (ESP8266) on perfboard and used to dangle loosely next to the meter cabinet for way too long.
@@ -77,3 +81,7 @@ An early prototype was built using a NodeMCU V2 dev kit (ESP8266) on perfboard a
 [Home Assistant]: https://www.home-assistant.io/
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
 [Grafana]: https://grafana.com/
+
+<!-- License links -->
+[OHL]: https://cern-ohl.web.cern.ch/home
+[EUPL]: https://interoperable-europe.ec.europa.eu/collection/eupl/eupl-text-eupl-12
