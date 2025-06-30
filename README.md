@@ -38,15 +38,15 @@ There's a variety of ESP32 firmwares available that can be used. Most popular ar
 
 TODO: Describe firmware configuration, long term data collection and analytics using [Grafana] charts.
 
+## Contribution
+
+Feel free to get in touch and discuss ideas, improvements or your experiences with it.
+
 ## History
 
 An early prototype was built using a NodeMCU V2 dev kit (ESP8266) on perfboard and used to dangle loosely next to the meter cabinet for way too long.
 
 <img alt="Prototype on perfboard" src="images/prototype.jpg" style="width: 10em;" />
-
-## Contribution
-
-Feel free to get in touch and discuss ideas, improvements or your experiences with it.
 
 <!-- Hardware links -->
 [DIN rail enclosure]: https://www.camdenboss.com/camden-boss/cnmb2kit-din-rail-module-box-kit%2c-industrial-enclosure%2c-polycarbonate-enclosure/c-23/p-18578
