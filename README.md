@@ -4,7 +4,7 @@ A device for capturing energy consumption at home by reading energy meters.
 
 This device, built around the ESP32-C3, collects data from electricity, gas, and water meters and publishes it via MQTT for integration with databases and long-term analysis. Housed in a DIN rail enclosure, it fits seamlessly into a standard European meter cabinet.
 
-<img alt="Rendering of PCB in enclosure" src="images/enclosure-rendered.png" style="width: 20em;" />
+<img alt="Rendering of PCB in enclosure" src="images/enclosure-rendered.png" style="width: 30em;" />
 
 ## Hardware
 
@@ -42,29 +42,37 @@ TODO: Describe firmware configuration, long term data collection and analytics u
 
 An early prototype was built using a NodeMCU V2 dev kit (ESP8266) on perfboard and used to dangle loosely next to the meter cabinet for way too long.
 
+<img alt="Prototype on perfboard" src="images/prototype.jpg" style="width: 10em;" />
+
 ## Contribution
 
 Feel free to get in touch and discuss ideas, improvements or your experiences with it.
 
+<!-- Hardware links -->
 [DIN rail enclosure]: https://www.camdenboss.com/camden-boss/cnmb2kit-din-rail-module-box-kit%2c-industrial-enclosure%2c-polycarbonate-enclosure/c-23/p-18578
 [Power supply]: https://www.meanwell.com/webapp/product/search.aspx?prod=HDR-15
 
+<!-- Electrical meter links -->
 [eBZ DD3]: https://www.ebzgmbh.de/produkte/dd3
 [DIY IR sensors]: https://www.heise.de/tests/Ausprobiert-Guenstiger-IR-Lesekopf-fuer-Smart-Meter-mit-Tastmota-Firmware-7065559.html
 [DIY IR sensor schmatic]: https://wiki.volkszaehler.org/hardware/controllers/ir-schreib-lesekopf
 [OBIS D0]: https://community.simon42.com/t/obis-d0-integration-und-ein-ebz-dd3-wechsel-von-tasmota-auf-esphome/20598
 [OBIS is not SML]: https://community.simon42.com/t/ebz-dd3-esplesekopf-und-fehlende-daten/9765/4
 
+<!-- Gas meter links -->
 [Honeywell IN-Z61]: https://process.honeywell.com/us/en/site/elster-instromet-de/produkte/gasmessung/balgengaszahler/in-z61
 [GMT BK-G4]: https://www.gmt.de/gasmessung/haushalt/bk-g-4
 
+<!-- Water meter links -->
 [Ebeling & Sohn ES40-13]: https://www.ebelingundsohn.de/unser-es-40-13/
 [Sensus HRI]: https://www.xylem.com/de-de/products--services/telemetry-communications--data-transfer/hand-held--reading-devices/hri-sensor/
 [Sensus HRI datasheet]: https://www.xylem.com/siteassets/brand/sensus/resources/data-sheets/hri-sensor-data-sheet.pdf
 
+<!-- Firmware links -->
 [Tasmota]: https://tasmota.github.io/
 [ESPHome]: https://esphome.io/
 
+<!-- Software links -->
 [Node-RED]: https://nodered.org/
 [Home Assistant]: https://www.home-assistant.io/
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
