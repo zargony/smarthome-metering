@@ -14,6 +14,16 @@ The standard [DIN rail enclosure] can be mounted onto a DIN rail and only shows 
 
 This device provides a 3.3V bidirectional UART for reading a serial data stream, e.g. an electric meter's infrared interface. Additionally 3 debounced impulse contacts can be used to capture simple count impulses, e.g. from reed contacts on water and gas meters (or electric meters without IR interface but impulse LEDs).
 
+| GPIO  | Direction                 | Usage            |
+|-------|---------------------------|------------------|
+| GPIO3 | Input, Pull-Up, Debounced | Contact 1        |
+| GPIO4 | Input, Pull-Up, Debounced | Contact 2        |
+| GPIO5 | Input, Pull-Up, Debounced | Contact 3        |
+| GPIO6 | Input                     | UART Rx          |
+| GPIO7 | Output                    | UART Tx          |
+| GPIO8 | Output                    | LED (active low) |
+| GPIO9 | Input, Pull-Up            | Boot button      |
+
 I use this device with sensors described below. It's tailored to my specific environment and some links reference German websites, as they relate to the energy meters installed in my home. However, you may still find parts of it useful for your own setup.
 
 ### Electrical
