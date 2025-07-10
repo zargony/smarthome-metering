@@ -16695,7 +16695,7 @@
 			)
 		)
 	)
-	(gr_text "Cnt3"
+	(gr_text "Cnt1"
 		(at 107.696 69 0)
 		(layer "F.SilkS")
 		(uuid "0bfa9c73-a35f-4fe1-908f-28b306daf3f8")
@@ -16728,7 +16728,7 @@
 			)
 		)
 	)
-	(gr_text "Cnt1"
+	(gr_text "Cnt3"
 		(at 87.376 69 0)
 		(layer "F.SilkS")
 		(uuid "2c53bcde-243a-44e1-95b1-df3b5b056daa")

@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## Unreleased
 
+- Fixed contact labels order on silkscreen and front label
+
 ## 1.1 - 2025-06-30
 
 - Submitted for manufacturing (JLCPCB)
