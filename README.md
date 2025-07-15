@@ -4,11 +4,13 @@ A device for capturing energy consumption at home by reading energy meters.
 
 This device, built around the ESP32-C3, collects data from electricity, gas, and water meters and publishes it via MQTT for integration with databases and long-term analysis. Housed in a DIN rail enclosure, it fits seamlessly into a standard European meter cabinet.
 
-<img alt="Rendering of PCB in enclosure" src="images/enclosure-rendered.png" style="width: 30em;" />
+<img alt="Rendering of PCB in enclosure" src="images/enclosure-rendered.png" style="width: 25em;" /> <img alt="Fully assembled device" src="images/device-assembled.jpg" style="width: 25em;" />
 
 ## Hardware
 
 The standard [DIN rail enclosure] can be mounted onto a DIN rail and only shows status and activity LEDs when installed in a meter cabinet. [Power supply] and sensor connections are exposed via screw terminals. An external antenna can be connected to the SMA socket and is best mounted outside the cabinet for good Wifi connection. An USB-C socket exposes the ESP32-C3 Serial/JTAG port for easy programming/debugging (e.g. if OTA failed).
+
+<img alt="Empty PCBs" src="images/pcbs-empty.jpg" style="width: 8em;" /> <img alt="Assembled main PCB" src="images/pcb-assembled.jpg" style="width: 8em;" /> <img alt="Main PCB mounted onto base PCB" src="images/pcb-mounted.jpg" style="width: 8em;" /> <img alt="Enclosure and PCB assembled" src="images/enclosure-assembled.jpg" style="width: 8em;" /> <img alt="Wiring of device in meter cabinet" src="images/device-wiring.jpg" style="width: 8em;" /> <img alt="Device installed in meter cabinet" src="images/device-installed.jpg" style="width: 8em;" />
 
 ### Sensor connections
 
@@ -60,7 +62,7 @@ Hardware licensed under the [CERN Open Hardware License (Strongly Reciprocal)][O
 
 An early prototype was built using a NodeMCU V2 dev kit (ESP8266) on perfboard and used to dangle loosely next to the meter cabinet for way too long.
 
-<img alt="Prototype on perfboard" src="images/prototype.jpg" style="width: 10em;" />
+<img alt="Prototype on perfboard" src="images/prototype.jpg" style="width: 8em;" />
 
 <!-- Hardware links -->
 [DIN rail enclosure]: https://www.camdenboss.com/camden-boss/cnmb2kit-din-rail-module-box-kit%2c-industrial-enclosure%2c-polycarbonate-enclosure/c-23/p-18578
