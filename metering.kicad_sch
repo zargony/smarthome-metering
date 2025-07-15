@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-07-10")
+		(date "2025-07-15")
 		(rev "1.2-dev")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 	)
@@ -5659,16 +5659,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 101.6) (xy 259.08 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ef91ea-9cf9-43ae-9131-5aef5458f577")
-	)
-	(wire
-		(pts
 			(xy 173.99 35.56) (xy 179.07 35.56)
 		)
 		(stroke
@@ -6186,6 +6176,16 @@
 			(type default)
 		)
 		(uuid "89622788-e0ef-43d1-8584-bc8109ee4952")
+	)
+	(wire
+		(pts
+			(xy 259.08 104.14) (xy 259.08 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a1a1a94-07c0-468b-b839-a3700ebc204e")
 	)
 	(wire
 		(pts
@@ -11838,6 +11838,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 259.08 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aabb9013-8510-4a68-abbd-b496f56b0f7e")
+		(property "Reference" "#PWR025"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90db3165-cb4e-4d0a-b809-b39eb5afd655")
+		)
+		(instances
+			(project "metering"
+				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 49.53 135.89 90)
 		(unit 1)
@@ -12321,7 +12388,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 251.46 104.14 0)
+		(at 251.46 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12330,7 +12397,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcea48f9-c359-4a81-829b-de192e79262d")
 		(property "Reference" "D3"
-			(at 249.8725 97.79 0)
+			(at 253.0475 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12338,7 +12405,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 249.8725 100.33 0)
+			(at 253.0475 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,72 +13479,6 @@
 			(project ""
 				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 259.08 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f05fa242-6486-4b85-b8e2-238f2a09b3a1")
-		(property "Reference" "#PWR037"
-			(at 259.08 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 259.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 259.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cc658c8-478b-4148-a085-6c81de90e878")
-		)
-		(instances
-			(project "metering"
-				(path "/2132c704-8b90-4a68-a04d-0b4be367d67b"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
