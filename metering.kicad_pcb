@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-06-30")
-		(rev "1.1")
+		(date "2025-07-10")
+		(rev "1.2-dev")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 		(comment 2 "PCB for Camdenboss CNMB-2-2 DIN rail enclosure")
 	)
