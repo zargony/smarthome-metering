@@ -44,11 +44,9 @@ Our [Ebeling & Sohn ES40-13] water meter allows to attach a [Sensus HRI] sensor.
 
 ## Firmware
 
-There's a variety of ESP32 firmwares available that can be used. Most popular are [Tasmota] or [ESPHome]. With proper configuration, it captures energy meters readings and can submit readings to an MQTT broker where they can be picked up by various tools like [Node-RED], [Telegraf] or [Home Assistant].
+There's a variety of ESP32 firmwares available that can be used. Most popular are [ESPHome] and [Tasmota]. With proper configuration, it captures energy meters readings and can submit readings to an MQTT broker where they can be picked up by various tools like [Home Assistant], [Node-RED] or [Telegraf].
 
-## TODO
-
-TODO: Describe firmware configuration, long term data collection and analytics using [Grafana] charts.
+See [`esphome.yaml`](esphome.yaml) for an example ESPHome configuration of this device which then can be auto-discovered in Home Assistant.
 
 ## Contribution
 
@@ -85,12 +83,12 @@ An early prototype was built using a NodeMCU V2 dev kit (ESP8266) on perfboard a
 [Sensus HRI datasheet]: https://www.xylem.com/siteassets/brand/sensus/resources/data-sheets/hri-sensor-data-sheet.pdf
 
 <!-- Firmware links -->
-[Tasmota]: https://tasmota.github.io/
 [ESPHome]: https://esphome.io/
+[Tasmota]: https://tasmota.github.io/
 
 <!-- Software links -->
-[Node-RED]: https://nodered.org/
 [Home Assistant]: https://www.home-assistant.io/
+[Node-RED]: https://nodered.org/
 [Telegraf]: https://www.influxdata.com/time-series-platform/telegraf/
 [Grafana]: https://grafana.com/
 
