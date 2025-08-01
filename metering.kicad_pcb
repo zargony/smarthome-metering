@@ -10,7 +10,7 @@
 	(title_block
 		(title "Smart Home Energy Metering")
 		(date "2025-08-01")
-		(rev "1.2-dev")
+		(rev "1.2")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 		(comment 2 "PCB for Camdenboss CNMB-2-2 DIN rail enclosure")
 	)

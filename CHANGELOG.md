@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## Unreleased
 
+## 1.2 - 2025-08-01
+
 - Re-routed contacts to fix order on terminal header
 - Fixed UART LED polarity to not light up during idle Rx (high level)
 
