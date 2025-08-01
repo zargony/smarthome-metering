@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Smart Home Energy Metering")
-		(date "2025-07-15")
+		(date "2025-08-01")
 		(rev "1.2-dev")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 	)
@@ -5479,16 +5479,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 53.34) (xy 83.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "161a875e-b7cb-4702-b9ba-bb7578a9209c")
-	)
-	(wire
-		(pts
 			(xy 63.5 138.43) (xy 67.31 138.43)
 		)
 		(stroke
@@ -5619,7 +5609,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 76.2) (xy 86.36 76.2)
+			(xy 74.93 76.2) (xy 83.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5676,16 +5666,6 @@
 			(type default)
 		)
 		(uuid "373f1ca7-3f55-4164-a709-a85066d1ab06")
-	)
-	(wire
-		(pts
-			(xy 74.93 66.04) (xy 83.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "378958f8-5949-4221-bb3f-786d8417640e")
 	)
 	(wire
 		(pts
@@ -5849,6 +5829,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 53.34) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523fc2f8-724b-4271-a563-40f507fe5f4e")
+	)
+	(wire
+		(pts
 			(xy 44.45 148.59) (xy 44.45 149.86)
 		)
 		(stroke
@@ -5869,7 +5859,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 58.42) (xy 86.36 76.2)
+			(xy 86.36 58.42) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6616,6 +6606,16 @@
 			(type default)
 		)
 		(uuid "baa33189-ed71-4ded-b103-bb23c7e3b58a")
+	)
+	(wire
+		(pts
+			(xy 74.93 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cb8c5e-2015-40bb-b9ff-7356677e96a4")
 	)
 	(wire
 		(pts
