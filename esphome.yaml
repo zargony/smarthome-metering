@@ -39,10 +39,7 @@ mqtt:
   broker: mqtt.local
 
 logger:
-  level: DEBUG
-  initial_level: INFO
-  logs:
-    esp-idf: INFO
+  level: INFO
 
 web_server:
   auth:
