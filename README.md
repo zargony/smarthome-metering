@@ -34,13 +34,11 @@ The [eBZ DD3] electrical meter has an infrared UART interface that continuously 
 
 ### Gas
 
-A [Honeywell IN-Z61] impulse sensor is attached to my [GMT BK-G4] gas meter. One impulse is sent every 0.01 m³. Impulses are counted and summed up in software.
+A [Honeywell IN-Z61] impulse sensor is attached to my [GMT BK-G4] gas meter. One impulse is sent every 0.01 m³ (10 liters). Impulses are counted and summed up in software.
 
 ### Water
 
-**Work in progress** (got no sensor yet).
-
-Our [Ebeling & Sohn ES40-13] water meter allows to attach a [Sensus HRI] sensor. [Several variants][Sensus HRI datasheet] exist. HRI-A is a simple pulse emitter while HRI-B has an M-Bus data interface. While HRI-A would be sufficient, they don't seem to be available anymore nowadays. The pulse emitter is a trivial interface, similar to the gas meter.
+The water meter is similar to a [Sensus 420] water meter and allows to attach a [Sensus HRI] sensor. [Several variants][Sensus HRI datasheet] exist. HRI-A is a simple pulse emitter while HRI-B has an additional M-Bus data interface. While HRI-A would be sufficient, they don't seem to be available anymore nowadays. The pulse emitter is a trivial interface, similar to the gas meter. One impulse is sent every 0.001 m³ (1 liter). Impulses are counted and summed up in software.
 
 ## Firmware
 
@@ -78,7 +76,7 @@ An early prototype was built using a NodeMCU V2 dev kit (ESP8266) on perfboard a
 [GMT BK-G4]: https://www.gmt.de/gasmessung/haushalt/bk-g-4
 
 <!-- Water meter links -->
-[Ebeling & Sohn ES40-13]: https://www.ebelingundsohn.de/unser-es-40-13/
+[Sensus 420]: https://www.xylem.com/de-de/products--services/metrology-equipment-for-utilities/meters/420-water-meter/
 [Sensus HRI]: https://www.xylem.com/de-de/products--services/telemetry-communications--data-transfer/hand-held--reading-devices/hri-sensor/
 [Sensus HRI datasheet]: https://www.xylem.com/siteassets/brand/sensus/resources/data-sheets/hri-sensor-data-sheet.pdf
 
