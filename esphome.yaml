@@ -77,9 +77,11 @@ sensor:
 
   - platform: wifi_signal
     name: WiFi Signal
+    icon: mdi:wifi
 
   - platform: internal_temperature
     name: Internal Temperature
+    icon: mdi:thermometer
 
   # Gas impulse meter (contact 1)
   # Note: use `id(sensor_gas_flow).set_total_pulses(x);` to set initial counter value
@@ -263,6 +265,7 @@ sensor:
     value_regex: "[0-9a-fA-F]{8}"
     format: hex
     name: Electric Status
+    icon: mdi:information-outline
     entity_category: diagnostic
 
 text_sensor:
@@ -274,6 +277,7 @@ text_sensor:
     obis_code: 1-0:0.0.0*255
     obis_d0_id: obis_electric
     name: Electric Owner Identification
+    icon: mdi:information-outline
     entity_category: diagnostic
 
   # Electric meter device id
@@ -281,4 +285,5 @@ text_sensor:
     obis_code: 1-0:96.1.0*255
     obis_d0_id: obis_electric
     name: Electric Device Identification
+    icon: mdi:information-outline
     entity_category: diagnostic
