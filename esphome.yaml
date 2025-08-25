@@ -146,6 +146,7 @@ sensor:
     accuracy_decimals: 8
     filters:
       - delta: 0.00000001 # don't repeat unchanged values
+      - throttle: 10s # report at most every 10s
 
   # Electric export meter
   - platform: obis_d0
@@ -160,6 +161,7 @@ sensor:
     accuracy_decimals: 8
     filters:
       - delta: 0.00000001 # don't repeat unchanged values
+      - throttle: 10s # report at most every 10s
 
   # Electric power measurement
   - platform: obis_d0
