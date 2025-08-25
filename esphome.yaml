@@ -172,7 +172,7 @@ sensor:
     unit_of_measurement: W
     device_class: power
     state_class: measurement
-    icon: mdi:meter-electric-outline
+    icon: mdi:flash
     accuracy_decimals: 2
 
   # Electric power measurement (L1)
@@ -184,7 +184,7 @@ sensor:
     unit_of_measurement: W
     device_class: power
     state_class: measurement
-    icon: mdi:meter-electric-outline
+    icon: mdi:flash
     accuracy_decimals: 2
 
   # Electric power measurement (L2)
@@ -196,7 +196,7 @@ sensor:
     unit_of_measurement: W
     device_class: power
     state_class: measurement
-    icon: mdi:meter-electric-outline
+    icon: mdi:flash
     accuracy_decimals: 2
 
   # Electric power measurement (L3)
@@ -208,7 +208,7 @@ sensor:
     unit_of_measurement: W
     device_class: power
     state_class: measurement
-    icon: mdi:meter-electric-outline
+    icon: mdi:flash
     accuracy_decimals: 2
 
   # Electric voltage measurement (L1)
@@ -220,7 +220,7 @@ sensor:
     unit_of_measurement: V
     device_class: voltage
     state_class: measurement
-    icon: mdi:flash-triangle-outline
+    icon: mdi:sine-wave
     accuracy_decimals: 1
 
   # Electric voltage measurement (L2)
@@ -232,7 +232,7 @@ sensor:
     unit_of_measurement: V
     device_class: voltage
     state_class: measurement
-    icon: mdi:flash-triangle-outline
+    icon: mdi:sine-wave
     accuracy_decimals: 1
 
   # Electric voltage measurement (L3)
@@ -244,7 +244,7 @@ sensor:
     unit_of_measurement: V
     device_class: voltage
     state_class: measurement
-    icon: mdi:flash-triangle-outline
+    icon: mdi:sine-wave
     accuracy_decimals: 1
 
   # Electric meter time of operation
