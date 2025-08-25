@@ -258,6 +258,8 @@ sensor:
     device_class: duration
     state_class: total_increasing
     icon: mdi:timer-outline
+    filters:
+      - delta: 1 # don't repeat unchanged values
     entity_category: diagnostic
 
   # Electric meter status report
@@ -268,6 +270,8 @@ sensor:
     format: hex
     name: Electric Status
     icon: mdi:information-outline
+    filters:
+      - delta: 1 # don't repeat unchanged values
     entity_category: diagnostic
 
 text_sensor:
