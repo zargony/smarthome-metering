@@ -9,11 +9,10 @@ esp32:
 esphome:
   name: metering
   on_boot:
-    then:
-      # On boot, restore previous counter values
-      - lambda: |-
-          id(sensor_gas_flow).set_total_pulses(id(gas_counter));
-          id(sensor_water_flow).set_total_pulses(id(water_counter));
+    # On boot, restore previous counter values
+    - lambda: |-
+        id(sensor_gas_flow).set_total_pulses(id(gas_counter));
+        id(sensor_water_flow).set_total_pulses(id(water_counter));
 
 external_components:
   # OBIS D0 component for reading electrical meter IR interface
@@ -106,8 +105,7 @@ sensor:
       filters:
         - multiply: 0.01 # 1 pulse per 0.01 m³
       on_raw_value:
-        then:
-          - lambda: 'id(gas_counter) = x;'
+        - lambda: 'id(gas_counter) = x;'
 
   # Water impulse meter (contact 2)
   # Note: use `id(sensor_water_flow).set_total_pulses(x);` to set initial counter value
@@ -130,8 +128,7 @@ sensor:
       filters:
         - multiply: 0.001 # 1 pulse per 0.001 m³
       on_raw_value:
-        then:
-          - lambda: 'id(water_counter) = x;'
+        - lambda: 'id(water_counter) = x;'
 
   # Electric import meter (OBIS D0 via UART interface)
   - platform: obis_d0
