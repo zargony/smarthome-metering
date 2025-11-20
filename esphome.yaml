@@ -209,6 +209,7 @@ sensor:
     accuracy_decimals: 2
     web_server:
       sorting_group_id: sorting_group_electric
+    state_topic: null
 
   # Electric power measurement (L2)
   - platform: obis_d0
@@ -223,6 +224,7 @@ sensor:
     accuracy_decimals: 2
     web_server:
       sorting_group_id: sorting_group_electric
+    state_topic: null
 
   # Electric power measurement (L3)
   - platform: obis_d0
@@ -237,6 +239,7 @@ sensor:
     accuracy_decimals: 2
     web_server:
       sorting_group_id: sorting_group_electric
+    state_topic: null
 
   # Electric voltage measurement (L1)
   - platform: obis_d0
@@ -251,6 +254,7 @@ sensor:
     accuracy_decimals: 1
     web_server:
       sorting_group_id: sorting_group_electric
+    state_topic: null
 
   # Electric voltage measurement (L2)
   - platform: obis_d0
@@ -265,6 +269,7 @@ sensor:
     accuracy_decimals: 1
     web_server:
       sorting_group_id: sorting_group_electric
+    state_topic: null
 
   # Electric voltage measurement (L3)
   - platform: obis_d0
@@ -279,6 +284,7 @@ sensor:
     accuracy_decimals: 1
     web_server:
       sorting_group_id: sorting_group_electric
+    state_topic: null
 
   # Electric meter time of operation
   - platform: obis_d0
@@ -318,6 +324,7 @@ text_sensor:
     name: Electric Owner Identification
     icon: mdi:information-outline
     entity_category: diagnostic
+    state_topic: null
 
   # Electric meter device id
   - platform: obis_d0
@@ -326,3 +333,4 @@ text_sensor:
     name: Electric Device Identification
     icon: mdi:information-outline
     entity_category: diagnostic
+    state_topic: null
