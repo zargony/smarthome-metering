@@ -45,6 +45,16 @@ web_server:
     username: admin
     password: !secret admin_password
   local: true
+  sorting_groups:
+    - id: sorting_group_electric
+      name: Electric
+      sorting_weight: -20
+    - id: sorting_group_gas
+      name: Gas
+      sorting_weight: -15
+    - id: sorting_group_water
+      name: Water
+      sorting_weight: -10
 
 ota:
   - platform: esphome
@@ -96,6 +106,8 @@ sensor:
     accuracy_decimals: 2
     filters:
       - multiply: 10 # 1 pulse per 0.01 m³
+    web_server:
+      sorting_group_id: sorting_group_gas
     total:
       name: Gas Import Total
       unit_of_measurement: m³
@@ -104,6 +116,8 @@ sensor:
       accuracy_decimals: 2
       filters:
         - multiply: 0.01 # 1 pulse per 0.01 m³
+      web_server:
+        sorting_group_id: sorting_group_gas
       on_raw_value:
         - lambda: 'id(gas_counter) = x;'
 
@@ -119,6 +133,8 @@ sensor:
     device_class: volume_flow_rate
     icon: mdi:water
     accuracy_decimals: 2
+    web_server:
+      sorting_group_id: sorting_group_water
     total:
       name: Water Import Total
       unit_of_measurement: m³
@@ -127,6 +143,8 @@ sensor:
       accuracy_decimals: 3
       filters:
         - multiply: 0.001 # 1 pulse per 0.001 m³
+      web_server:
+        sorting_group_id: sorting_group_water
       on_raw_value:
         - lambda: 'id(water_counter) = x;'
 
@@ -144,6 +162,8 @@ sensor:
     filters:
       - delta: 0.00000001 # don't repeat unchanged values
       - throttle: 10s # report at most every 10s
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric export meter
   - platform: obis_d0
@@ -159,6 +179,8 @@ sensor:
     filters:
       - delta: 0.00000001 # don't repeat unchanged values
       - throttle: 10s # report at most every 10s
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric power measurement
   - platform: obis_d0
@@ -171,6 +193,8 @@ sensor:
     state_class: measurement
     icon: mdi:flash
     accuracy_decimals: 2
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric power measurement (L1)
   - platform: obis_d0
@@ -183,6 +207,8 @@ sensor:
     state_class: measurement
     icon: mdi:flash
     accuracy_decimals: 2
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric power measurement (L2)
   - platform: obis_d0
@@ -195,6 +221,8 @@ sensor:
     state_class: measurement
     icon: mdi:flash
     accuracy_decimals: 2
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric power measurement (L3)
   - platform: obis_d0
@@ -207,6 +235,8 @@ sensor:
     state_class: measurement
     icon: mdi:flash
     accuracy_decimals: 2
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric voltage measurement (L1)
   - platform: obis_d0
@@ -219,6 +249,8 @@ sensor:
     state_class: measurement
     icon: mdi:sine-wave
     accuracy_decimals: 1
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric voltage measurement (L2)
   - platform: obis_d0
@@ -231,6 +263,8 @@ sensor:
     state_class: measurement
     icon: mdi:sine-wave
     accuracy_decimals: 1
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric voltage measurement (L3)
   - platform: obis_d0
@@ -243,6 +277,8 @@ sensor:
     state_class: measurement
     icon: mdi:sine-wave
     accuracy_decimals: 1
+    web_server:
+      sorting_group_id: sorting_group_electric
 
   # Electric meter time of operation
   - platform: obis_d0
