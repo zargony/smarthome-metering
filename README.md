@@ -32,6 +32,8 @@ There's a variety of ESP32 firmwares available that can be used. Most popular ar
 
 See [`metering.yaml`](esphome/metering.yaml) for an example ESPHome configuration of this device which is auto-discovered with all metrics in Home Assistant.
 
+<img alt="Home Assistant showing energy metering sensors" src="images/ha-metering-sensors.png" style="width: 8em;" /> <img alt="Home Assistant showing device diagnostics" src="images/ha-metering-diagnostics.png" style="width: 8em;" /> <img alt="Home Assistant showing energy usage graphs" src="images/ha-energy-usage.png" style="width: 8em;" />
+
 ## My Setup (Example)
 
 I use this device with sensors described below. It's tailored to my specific environment and some links reference German websites, as they relate to the energy meters installed in my home. However, you may still find parts of it useful for your own setup.
