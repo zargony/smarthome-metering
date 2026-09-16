@@ -2,13 +2,13 @@
 
 A device for capturing energy consumption at home by reading energy meters.
 
-This device, built around the ESP32-C3, collects data from electricity, gas, and water meters and publishes it via MQTT for integration with databases and long-term analysis. Housed in a DIN rail enclosure, it fits seamlessly into a standard European meter cabinet.
+This device, built around an ESP32-C3, collects data from electricity, gas, and water meters and provides it to smart home systems like [Home Assistant] for automation and long-term analysis. Housed in a DIN rail enclosure, it fits seamlessly into a standard European meter cabinet.
 
 <img alt="Rendering of PCB in enclosure" src="images/enclosure-rendered.png" style="width: 25em;" /> <img alt="Fully assembled device" src="images/device-assembled.jpg" style="width: 25em;" />
 
 ## Hardware
 
-The standard [DIN rail enclosure] can be mounted onto a DIN rail and only shows status and activity LEDs when installed in a meter cabinet. [Power supply] and sensor connections are exposed via screw terminals. An external antenna can be connected to the SMA socket and is best mounted outside the cabinet for good Wifi connection. An USB-C socket exposes the ESP32-C3 Serial/JTAG port for easy programming/debugging (e.g. if OTA failed).
+The standard [DIN rail enclosure] can be mounted onto a DIN rail and shows status and activity LEDs when installed in a meter cabinet. [Power supply] and sensor connections are exposed via screw terminals. An external antenna can be connected to the SMA socket and is best mounted outside the cabinet for good Wifi connection. A USB-C socket exposes the ESP32-C3 Serial/JTAG port for easy programming/debugging (e.g. if OTA failed).
 
 <img alt="Empty PCBs" src="images/pcbs-empty.jpg" style="width: 8em;" /> <img alt="Assembled main PCB" src="images/pcb-assembled.jpg" style="width: 8em;" /> <img alt="Main PCB mounted onto base PCB" src="images/pcb-mounted.jpg" style="width: 8em;" /> <img alt="Enclosure and PCB assembled" src="images/enclosure-assembled.jpg" style="width: 8em;" /> <img alt="Wiring of device in meter cabinet" src="images/device-wiring.jpg" style="width: 8em;" /> <img alt="Device installed in meter cabinet" src="images/device-installed.jpg" style="width: 8em;" />
 
@@ -26,6 +26,14 @@ This device provides a 3.3V bidirectional UART for reading a serial data stream,
 | GPIO8 | Output                    | Status LED (active low)    |
 | GPIO9 | Input, Pull-Up            | Boot button                |
 
+## Firmware
+
+There's a variety of ESP32 firmwares available that can be used. Most popular are [ESPHome] and [Tasmota]. With proper configuration, it captures energy meters readings and can submit readings to [Home Assistant] or an MQTT broker where they can be picked up by various tools like [Node-RED] or [Telegraf].
+
+See [`metering.yaml`](esphome/metering.yaml) for an example ESPHome configuration of this device which is auto-discovered with all metrics in Home Assistant.
+
+## My Setup (Example)
+
 I use this device with sensors described below. It's tailored to my specific environment and some links reference German websites, as they relate to the energy meters installed in my home. However, you may still find parts of it useful for your own setup.
 
 ### Electrical
@@ -39,12 +47,6 @@ A [Honeywell IN-Z61] impulse sensor is attached to my [GMT BK-G4] gas meter. One
 ### Water
 
 The water meter is similar to a [Sensus 420] water meter and allows to attach a [Sensus HRI] sensor. [Several variants][Sensus HRI datasheet] exist. HRI-A is a simple pulse emitter while HRI-B has an additional M-Bus data interface. While HRI-A would be sufficient, they don't seem to be available anymore nowadays. The pulse emitter is a trivial interface, similar to the gas meter. One impulse is sent every 0.001 m³ (1 liter). Impulses are counted and summed up in software.
-
-## Firmware
-
-There's a variety of ESP32 firmwares available that can be used. Most popular are [ESPHome] and [Tasmota]. With proper configuration, it captures energy meters readings and can submit readings to an MQTT broker where they can be picked up by various tools like [Home Assistant], [Node-RED] or [Telegraf].
-
-See [`esphome.yaml`](esphome.yaml) for an example ESPHome configuration of this device which then can be auto-discovered in Home Assistant.
 
 ## Contribution
 

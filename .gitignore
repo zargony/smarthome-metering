@@ -2,5 +2,6 @@
 *-bak
 *-backups/
 ~*
+.history
 _autosave-*
 fp-info-cache
