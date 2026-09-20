@@ -5,8 +5,8 @@
 	(uuid "5defc7ce-1235-4a0b-abeb-c680fb055c83")
 	(paper "A4")
 	(title_block
-		(title "Smart Home Energy Metering")
-		(date "2025-08-01")
+		(title "Smart Home Metering")
+		(date "2026-09-20")
 		(rev "1.2")
 		(comment 1 "https://github.com/zargony/smarthome-metering")
 	)
