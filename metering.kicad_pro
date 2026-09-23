@@ -563,19 +563,19 @@
       },
       {
         "netclass": "Power",
+        "pattern": "VIN"
+      },
+      {
+        "netclass": "Power",
         "pattern": "+3.3V"
       },
       {
         "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/VIN"
-      },
-      {
-        "netclass": "Power",
         "pattern": "/VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VEXT"
       }
     ]
   },
@@ -670,7 +670,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -703,29 +703,46 @@
     "top_level_sheets": [
       {
         "filename": "metering.kicad_sch",
-        "name": "metering",
+        "name": "Base",
         "uuid": "2132c704-8b90-4a68-a04d-0b4be367d67b"
+      },
+      {
+        "filename": "mcu.kicad_sch",
+        "name": "MCU",
+        "uuid": "3a243bee-6b7f-4f2a-af51-6b7aa03c7ba4"
       }
     ],
-    "used_designators": "U1-5,C1-16,SW1-2,J1-2,H1-2,R1-25,#FLG1-3,#FLG6,Y1,D1-13,#PWR1-42,#PWR49-54,X1-2,L1,F1",
+    "used_designators": "NT1-2,TP1-4,F1-4,C1-20,C101-105,C201-207,C301-303,C401,C501,U1-7,U101-103,U201-202,U301,U401,U501,SW1-8,SW201-204,#PWR1-74,#PWR101-117,#PWR201-229,#PWR301-307,#PWR401-403,#PWR501-506,#PWR601-606,#PWR701-706,D1-13,D101-104,D201,D301-302,D401-402,D501-502,D601,D701,Y1-2,Y201,L1,L101,X1-2,X101-102,#FLG1-6,#FLG101-102,#FLG201,JP101,R1-45,R101-105,R201-217,R301-310,R401-403,R501-505,R601-605,R701-705,H1-2,H101-102,J1-10,J101-102,J201-204,Q1-6,Q201-202,Q301-304,Q501-502,Q601-602,Q701-702",
     "variants": []
   },
   "sheets": [
     [
       "2132c704-8b90-4a68-a04d-0b4be367d67b",
-      "metering"
+      "Base"
     ],
     [
-      "aff1b94e-69ca-420a-a7c4-8c8197c0a1fd",
-      "Debounce1"
+      "3a243bee-6b7f-4f2a-af51-6b7aa03c7ba4",
+      "MCU"
     ],
     [
-      "e1a8ed28-192d-42ff-b7d9-d46b9b3862c7",
-      "Debounce2"
+      "be1cbc79-e14b-49ef-a697-82b867ec2c4a",
+      "Analog Input 1+2"
     ],
     [
-      "fc1b8e3c-9114-4782-b79d-e6339273f4a3",
-      "Debounce3"
+      "ca22fbf1-a5ef-4155-a4ca-a3c5f6f988c2",
+      "Digital Input 1"
+    ],
+    [
+      "93e79a42-6b5c-4ec6-a379-a29ef4a6e18c",
+      "Digital Input 2"
+    ],
+    [
+      "b48717aa-3bfe-48bc-b99a-c173369273e0",
+      "Digital Output 1"
+    ],
+    [
+      "8f9543e2-a95e-4246-b219-01f8e5cb5268",
+      "Digital Output 2"
     ]
   ],
   "text_variables": {},
